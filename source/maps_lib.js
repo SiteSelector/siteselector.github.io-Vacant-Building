@@ -84,7 +84,13 @@ var MapsLib = {
     MapsLib.setDemographicsLabels("0&ndash;20%", "20&ndash;40%", "40&ndash;62%");
 
     MapsLib.poverty = new google.maps.FusionTablesLayer({
-      query: {from:   MapsLib.povertyTableId, select: "geometry"}
+      query: {from:   MapsLib.povertyTableId, 
+      
+      select: "geometry",
+       where:  whereClause  
+      }
+       styleId: 3,
+     templateId: 4
     });
     MapsLib.unemployment = new google.maps.FusionTablesLayer({
       query: {from:   MapsLib.unemploymentTableId, select: "geometry"}
