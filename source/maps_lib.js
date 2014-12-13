@@ -18,7 +18,7 @@ var MapsLib = {
 
   //the encrypted Table ID of your Fusion Table (found under File => About)
   //NOTE: numeric IDs will be depricated soon
-  fusionTableId: "1fK7H4ZDsWT-9sa09CjuJft3UBzxGcQlyPRBygEc", //main table for building data
+  fusionTableId: "1vbDuzNZVQgY2ytfMwb_vCpOajowZ3uA2CgspNjBD", //main table for locations
   
   povertyTableId: "15FyZq0hRcxUg9uCO_2DZm6vLvxKGpEwaMHs00lw",
   unemploymentTableId: "1YB3wtRv-UZXkJ8N1T83MDmOvA1ccuP_M1vHNOQs",
@@ -37,9 +37,9 @@ var MapsLib = {
   locationColumn:     "Location",
 
   map_centroid:       new google.maps.LatLng(41.8781136, -87.66677856445312), //center that your map defaults to
-  locationScope:      "chicago",      //geographical area appended to all address searches
-  recordName:         "building",       //for showing number of results
-  recordNamePlural:   "buildings",
+  locationScope:      "US",      //geographical area appended to all address searches
+  recordName:         "location",       //for showing number of results
+  recordNamePlural:   "locations",
 
   searchRadius:       1610,            //in meters ~ 1/2 mile
   defaultZoom:        11,             //zoom level when map is loaded (bigger is more zoomed in)
