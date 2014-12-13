@@ -20,7 +20,7 @@ var MapsLib = {
   //NOTE: numeric IDs will be depricated soon
   fusionTableId: "1vbDuzNZVQgY2ytfMwb_vCpOajowZ3uA2CgspNjBD", //main table for locations
   
-  povertyTableId: "15FyZq0hRcxUg9uCO_2DZm6vLvxKGpEwaMHs00lw",
+  povertyTableId: "1XZQWA8bVEVmj6c3k0fI7GBV9r6QyKH8Zbhr04TZ0", // Colorado pop
   unemploymentTableId: "1YB3wtRv-UZXkJ8N1T83MDmOvA1ccuP_M1vHNOQs",
   populationTableId: "1IiCZoS5RciFwRJF71UWOMRYFfhcbKs-PbZTqF80",
   medianIncomeId: "14kEdO1R9-j0VELDdIDoX3rhhFyiv9WdgDYj79zg",
